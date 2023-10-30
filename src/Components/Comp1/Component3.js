@@ -1,0 +1,84 @@
+import React from "react";
+import Towns from "./Towns";
+import img from "../../assets/loca.svg";
+import img1 from "../../assets/Rectangle25.svg";
+import img2 from "../../assets/Rectangle26.svg";
+import img3 from "../../assets/Rectangle27.svg";
+import img4 from "../../assets/Rectangle28.svg";
+import img5 from "../../assets/Rectangle 29.svg";
+import img6 from "../../assets/Rectangle 30.svg";
+import img7 from "../../assets/Rectangle 31.svg";
+import img8 from "../../assets/Rectangle 32.svg";
+
+function Component3() {
+  return (
+    <div>
+      {" "}
+      <div className="   py-16 bg-white">
+        <div className="ml-28">
+          <p className="w-96  text-blue-600 text-xl text-left font-medium font-['Poppins'] tracking-widest">
+            AREAS ACROSS THE TOWN
+          </p>
+          <p className="w-96 text-left text-zinc-800 text-3xl font-semibold font-['Poppins'] leading-10">
+            Neighborhood Properties
+          </p>
+        </div>
+        <div className="flex justify-center items-center gap-10 mt-12">
+          <Towns num={"201"} location={"New York City, NY"} img={img}></Towns>
+          <Towns num={"201"} location={"New York City, NY"} img={img1}></Towns>
+          <Towns num={"201"} location={"New York City, NY"} img={img2}></Towns>
+        </div>
+        <div className="flex justify-center items-center">
+          <Towns num={"201"} location={"New York City, NY"} img={img3}></Towns>
+          <Towns num={"201"} location={"New York City, NY"} img={img4}></Towns>
+        </div>
+      </div>
+      <p className="text-center text-blue-600 text-xl font-medium font-['Poppins'] uppercase tracking-widest">
+        INTRODUCE YOURSELF TO
+      </p>
+      <p className=" text-center text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10 mt-3">
+        Our Team of Experts
+      </p>
+      <div className="flex px-32 gap-40 mt-14 ">
+        <div className="w-48 h-96">
+          <img src={img5} />
+          <p className="text-center text-neutral-950 text-2xl font-semibold font-['Poppins']">
+            Brendon M
+          </p>
+          <p className="text-center text-blue-600 text-base font-medium font-['Poppins']">
+            CEO & Founder
+          </p>
+        </div>
+        <div className="w-48 h-96 ">
+          <img src={img6} />
+          <p className="text-center text-neutral-950 text-2xl font-semibold font-['Poppins']">
+            Jodi J. Appleby
+          </p>
+          <p className="text-center text-blue-600 text-base font-medium font-['Poppins']">
+            Real Estate Developer
+          </p>
+        </div>
+        <div className="w-48 h-96">
+          <img src={img7} />
+          <p className="text-center text-neutral-950 text-2xl font-semibold font-['Poppins']">
+            Justin S. Meza
+          </p>
+          <p className="text-center text-blue-600 text-base font-medium font-['Poppins']">
+            Listing Agent
+          </p>
+        </div>
+        <div className="h-96 w-48">
+          <img src={img8} />
+          <p className="text-center text-neutral-950 text-2xl font-semibold font-['Poppins']">
+            Susan T. Smith
+          </p>
+          <p className="text-center text-blue-600 text-base font-medium font-['Poppins']">
+            Buyer's Agent
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Component3;
