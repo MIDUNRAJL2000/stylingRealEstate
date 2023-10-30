@@ -1,17 +1,17 @@
 import React from "react";
 
-function Trending({ num1, day, img }) {
+function Trending({ day, date, img }) {
   return (
     <div className="relative">
-      <div className="">
-        <img src={img} />
+      <div className=" ">
+        <img className="z-0" src={img} />
       </div>
-      <div className="w-12 h-12 p-2.5 bg-white rounded-bl-lg rounded-br-lg shadow flex-col justify-start items-center gap-1 inline-flex">
-        <p className="text-center text-zinc-800 text-xl font-medium font-['Poppins']">
-          {num1}
+      <div className="w-12 h-12 p-2.5 bg-white rounded-bl-lg rounded-br-lg shadow flex-col absolute top-[19px] left-16 z-30 justify-start items-center gap-1 inline-flex">
+        <p className=" my-[-10px] text-center text-zinc-800 text-xl font-medium font-['Poppins']">
+          {day}
         </p>
         <p className="text-center text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed">
-          {day}
+          {date}
         </p>
       </div>
     </div>

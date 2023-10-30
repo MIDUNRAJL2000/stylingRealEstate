@@ -12,21 +12,21 @@ function Header() {
       <div className="bg-violet-900 flex w-full  h-10 justify-between">
         <div className="  gap-2 flex ml-32 items-center">
           <img src={logo1} />
-          <div className="text-white text-sm ">
+          <div className="text-white text-sm font-normal font-['Poppins'] leading-snug ">
             Rezilla, 18 Grattan St, Brooklyn
           </div>
         </div>
         <div className=" flex gap-7 mr-24">
           <div className="flex gap-3.5 items-center">
             <img src={logo2} />
-            <div className="text-white text-right text-sm ">
+            <div className="text-right text-white text-sm font-normal font-['Poppins'] leading-snug">
               +1 206-214-2298
             </div>
           </div>
 
           <div className="self-center flex  gap-3 items-center ">
             <img src={logo3} />
-            <div className="text-white text-right text-sm">
+            <div className="text-right text-white text-sm font-normal font-['Poppins'] leading-snug">
               support@rezilla.com
             </div>
           </div>
@@ -35,7 +35,9 @@ function Header() {
       <div className="flex justify-between items-center h-20 ">
         <div className=" flex ml-28  px-5 py-4 items-center">
           <div className=" rounded-3xl mx-auto w-20 h-9 bg-blue-600 bg-opacity-30 pt-1 ">
-            <div className="">Home</div>
+            <div className="text-zinc-800 text-base font-medium font-['Poppins']">
+              Home
+            </div>
           </div>
           <div className="text-zinc-800 text-base font-medium self-stretch font-['Poppins'] px-4 py-3.5  bg-opacity-30 ">
             About
@@ -56,7 +58,9 @@ function Header() {
           <div className="w-12 h-12 justify-center flex items-center bg-violet-900 rounded-full">
             <img src={logo4} />
           </div>
-          <span>Rezilla</span>
+          <span className="text-stone-900 text-xl font-semibold font-['Poppins']">
+            Rezilla
+          </span>
         </div>
         <div className="flex gap-10 mr-24">
           <div className="gap-1 flex items-center">
@@ -66,7 +70,7 @@ function Header() {
             </span>
           </div>
           <div className=" bg-violet-900 px-6 py-3.5 h-12 w-44 rounded-3xl justify-start gap-2.5 inline-flex">
-            <button className="flex gap-">
+            <button className="flex gap-2">
               <img src={logo6} />
               <span className="text-center text-white text-base font-medium font-['Poppins']">
                 Add Listing

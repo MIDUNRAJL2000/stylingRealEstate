@@ -9,12 +9,18 @@ import img5 from "../../assets/Rectangle 29.svg";
 import img6 from "../../assets/Rectangle 30.svg";
 import img7 from "../../assets/Rectangle 31.svg";
 import img8 from "../../assets/Rectangle 32.svg";
+import EllipseShade3 from "../../assets/EllipseShade3.svg";
+import EllipseShade4 from "../../assets/EllipseShade4.svg";
 
 function Component3() {
   return (
     <div>
       {" "}
-      <div className="   py-16 bg-white">
+      <img
+        src={EllipseShade3}
+        className="absolute left-[690px] mt-6 w-12 h-12 "
+      />
+      <div className="   py-32 bg-white">
         <div className="ml-28">
           <p className="w-96  text-blue-600 text-xl text-left font-medium font-['Poppins'] tracking-widest">
             AREAS ACROSS THE TOWN
@@ -33,7 +39,11 @@ function Component3() {
           <Towns num={"201"} location={"New York City, NY"} img={img4}></Towns>
         </div>
       </div>
-      <p className="text-center text-blue-600 text-xl font-medium font-['Poppins'] uppercase tracking-widest">
+      <img
+        src={EllipseShade4}
+        className="w-24 h-24 mb-24 absolute right-[150px]"
+      />
+      <p className="text-center text-blue-600 text-xl font-medium font-['Poppins'] uppercase tracking-widest mt-40">
         INTRODUCE YOURSELF TO
       </p>
       <p className=" text-center text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10 mt-3">

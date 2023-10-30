@@ -11,9 +11,13 @@ import image5 from "../../assets/image5.svg";
 import image6 from "../../assets/image6.svg";
 import logo10 from "../../assets/logo10.svg";
 import logo11 from "../../assets/logo11.svg";
-import Rectangle14 from "../../assets/Rectangle 14.svg";
-import Rectangle15 from "../../assets/Rectangle 15.svg";
-import Rectangle16 from "../../assets/Rectangle 16.svg";
+import Rectangle14 from "../../assets/Rectangle 14.png";
+import Rectangle15 from "../../assets/Rectangle 15.png";
+import Rectangle16 from "../../assets/Rectangle 16.png";
+import Group21 from "../../assets/Group 21.svg";
+import Group45 from "../../assets/Group 45.svg";
+import EllipseShade from "../../assets/EllipseShade.svg";
+import EllipseShade2 from "../../assets/EllipseShade2.svg";
 
 function Hero() {
   return (
@@ -32,6 +36,10 @@ function Hero() {
               Etiam eget elementum elit. Aenean dignissim dapibus vestibulum.{" "}
               <br />
               Integer a dolor eu sapien sodales vulputate ac in purus.
+              <img
+                src={EllipseShade}
+                className="absolute left-auto right-[820px]"
+              />
               <div className="w-full h-80 relative mr-7">
                 <img
                   className="w-full h-80 left-0 top-0 absolute rounded-2xl"
@@ -42,10 +50,14 @@ function Hero() {
           </div>
 
           <div className="w-96 bg-white rounded-3xl shadow h-auto mb-32">
-            <div className="p-6 bg-white rounded-tl-2xl rounded-tr-2xl border-b border-neutral-400">
-              <div className="flex justify-between items-center px-20">
-                <span className="">For Sale</span>
-                <span className="">For Rent</span>
+            <div className="bg-white rounded-tl-2xl rounded-tr-2xl border-b border-neutral-400">
+              <div className="flex justify-between items-center px-8">
+                <span className="text-violet-900 text-base font-medium font-['Poppins'] border-b-2 border-blue-600 py-5 px-10">
+                  For Sale
+                </span>
+                <span className="text-center text-zinc-500 text-base font-medium font-['Poppins'] py-5 px-10">
+                  For Rent
+                </span>
               </div>
             </div>
             <div className="px-8 flex flex-col gap-6 py-6">
@@ -90,15 +102,23 @@ function Hero() {
       </div>
 
       <div className="flex flex-col ">
-        <div className="flex p-10 items-center justify-center ">
-          <div className="w-80 bg-white rounded-full shadow p-6">rtghrtg</div>
+        <div className="flex p-10 items-center justify-center mt-[-100px] gap-5 ">
+          <div className="w-96 h-24 bg-white rounded-full shadow p-6 mr-4">
+            <img src={Group21} />
+          </div>
 
-          <div className="w-80 bg-white rounded-full shadow p-6">rtghrtg</div>
+          <div className="w-80 h-24 bg-white rounded-full shadow p-6">
+            <img src={Group45} />
+          </div>
         </div>
+        <img
+          src={EllipseShade2}
+          className="w-24 h-24 absolute left-[150px] bottom-[-220px]"
+        />
         <p className="text-center text-zinc-500 text-base font-medium font-['Poppins'] mt-8">
           Trusted by 100+ Companies across the globe!
         </p>
-        <div className="flex justify-evenly mt-7">
+        <div className="flex justify-evenly mt-24">
           <img src={image1} />
           <img src={image2} />
           <img src={image3} />
@@ -108,7 +128,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className=" justify-center item-center flex mt-36 ">
+      <div className="  flex mt-36 px-60">
         <div className="">
           <p className="w-52 text-left text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest">
             WHO ARE WE
@@ -156,14 +176,15 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-stretch w-[26%] ml-5 max-md:w-full max-md:ml-0">
-          <img src={Rectangle14} className=" w-72 h-96 rounded-3xl mt-16" />
+        <div className="flex">
+          <img
+            src={Rectangle14}
+            className=" w-72 h-96 rounded-3xl mt-20 ml-28"
+          />
         </div>
-        <div className="">
-          <div className="">
-            <img src={Rectangle15} className="  w-72 h-72 mt-4" />
-            <img loading="lazy" src={Rectangle16} className=" w-72 h-44  " />
-          </div>
+        <div className="flex flex-col ml-24">
+          <img src={Rectangle15} className="  w-72 h-64 mt-4" />
+          <img src={Rectangle16} className=" w-72 h-44 mb-24 mr-32 " />
         </div>
       </div>
     </div>

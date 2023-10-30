@@ -9,38 +9,40 @@ import logo14 from "../../assets/logo14.svg";
 
 function Component2() {
   return (
-    <div className="py-20 px-16 ">
-      <p className="text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest text-left">
-        CHECKOUT OUR NEW
-      </p>
-      <div className="flex justify-between ">
-        <p className="text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10">
-          Latest Listed Properties
+    <div>
+      <div className="py-20 px-16 ">
+        <p className="text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest text-left">
+          CHECKOUT OUR NEW
         </p>
-        <div className=" ">
-          <div className="w-20 h-12 px-7 py-5  bg-white rounded-3xl border mr-4 border-violet-900 justify-start items-center inline-flex">
-            <div className="text-center text-violet-900 text-base font-medium font-['Poppins']">
-              All
+        <div className="flex justify-between ">
+          <p className="text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10">
+            Latest Listed Properties
+          </p>
+          <div className=" ">
+            <div className="w-20 h-12 px-7 py-5  bg-white rounded-3xl border mr-4 border-violet-900 justify-start items-center inline-flex">
+              <div className="text-center text-violet-900 text-base font-medium font-['Poppins']">
+                All
+              </div>
             </div>
-          </div>
-          <div className="w-20 h-12 px-7 py-5 bg-violet-900 rounded-3xl justify-start items-center inline-flex mr-4 ">
-            <div className="text-center text-white text-base font-medium font-['Poppins']">
-              Sell
+            <div className="w-20 h-12 px-7 py-5 bg-violet-900 rounded-3xl justify-start items-center inline-flex mr-4 ">
+              <div className="text-center text-white text-base font-medium font-['Poppins']">
+                Sell
+              </div>
             </div>
-          </div>
-          <div className="w-24 h-12 px-7 py-5 bg-white rounded-3xl border border-violet-900 justify-start items-center  inline-flex">
-            <div className="text-center text-violet-900 text-base font-medium font-['Poppins']">
-              Rent
+            <div className="w-24 h-12 px-7 py-5 bg-white rounded-3xl border border-violet-900 justify-start items-center  inline-flex">
+              <div className="text-center text-violet-900 text-base font-medium font-['Poppins']">
+                Rent
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <p className="w-96 h-9 text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed text-left">
-        Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec dignissim
-        purus.
-      </p>
-      <div className="relative mb-[700px]">
-        <img src={frame} className="mt-12 absolute left-[100px]" />
+        <p className="w-96 h-9 text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed text-left">
+          Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
+          dignissim purus.
+        </p>
+        <div className="relative mb-[700px]">
+          <img src={frame} className="mt-12 absolute left-[100px]" />
+        </div>
       </div>
 
       <div className=" bg-neutral-300 w-full h-auto mt-12 py-12">
