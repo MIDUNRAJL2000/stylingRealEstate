@@ -38,7 +38,7 @@ function Hero() {
               Integer a dolor eu sapien sodales vulputate ac in purus.
               <img
                 src={EllipseShade}
-                className="absolute left-auto right-[820px]"
+                className="absolute left-auto right-[740px]"
               />
               <div className="w-full h-80 relative mr-7">
                 <img
