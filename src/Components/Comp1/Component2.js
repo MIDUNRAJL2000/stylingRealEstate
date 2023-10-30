@@ -10,10 +10,11 @@ import logo14 from "../../assets/logo14.svg";
 function Component2() {
   return (
     <div>
-      <div className="py-20 px-16 ">
+      <div className="py-20 px-40 ">
         <p className="text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest text-left">
           CHECKOUT OUR NEW
         </p>
+
         <div className="flex justify-between ">
           <p className="text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10">
             Latest Listed Properties
@@ -40,23 +41,23 @@ function Component2() {
           Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
           dignissim purus.
         </p>
-        <div className="relative mb-[700px]">
-          <img src={frame} className="mt-12 absolute left-[100px]" />
-        </div>
+      </div>
+      <div className="relative mb-[700px]">
+        <img src={frame} className="mt-12 absolute left-[160px]" />
       </div>
 
       <div className=" bg-neutral-300 w-full h-auto mt-12 py-12">
         <div className="">
-          <p className="text-center text-zinc-800 text-xl font-medium font-['Poppins'] tracking-widest ">
+          <p className="text-center text-zinc-800 text-xl font-medium font-['Poppins'] tracking-widest mt-12 ">
             OUR SERVICES
           </p>
-          <p className="text-center text-neutral-950 mt-3 text-4xl font-semibold font-['Poppins'] leading-10">
+          <p className="text-center text-neutral-950  text-4xl font-semibold font-['Poppins'] leading-10 mt-4">
             Donec porttitor euismod dignissim
           </p>
         </div>
         <div className="mt-7 mx-16">
           <div className="flex  gap-9 justify-between ">
-            <div className="w-96 h-auto bg-white rounded-3xl shadow align-center">
+            <div className="w-96 h-auto bg-white rounded-3xl shadow align-center py-8 mb-6">
               <div className="w-20 h-20 bg-blue-600 rounded-full shadow mx-auto mt-12">
                 <div className="flex justify-center pt-5">
                   <img src={logo12}></img>

@@ -17,8 +17,8 @@ import EllipseShade6 from "../../assets/EllipseShade6.svg";
 
 function Component4() {
   return (
-    <div className="">
-      <div className="w-full h-auto bg-violet-900 py-16">
+    <div className="mt-20">
+      <div className="w-full h-auto bg-violet-900 mt -14 py-16">
         <div className=" flex items-center justify-center flex-col">
           <p className="w-96 text-center text-white text-xl font-medium font-['Poppins'] uppercase tracking-widest">
             WHAT'S TRENDING
@@ -37,7 +37,7 @@ function Component4() {
             <p className="w-80 text-neutral-300 text-base text-left font-normal ml-4 font-['Poppins'] leading-relaxed">
               Etiam eget elementum elit. Aenean dignissim dapibus vestibulum
             </p>
-            <img src={frame} className="float-right h-12 w-12 " />
+            <img src={frame} className="float-right h-12 w-12 mt-12 mr-20 " />
           </div>
           <div className="">
             <Trending day="07" date="Mon" img={img10} />
@@ -48,7 +48,7 @@ function Component4() {
               Nullam odio lacus, dictum quis pretium congue, vehicula venenatis
               nunc.
             </p>
-            <img src={frame} className="float-right h-12 w-12" />
+            <img src={frame} className="float-right h-12 w-12 mr-12" />
           </div>
           <div className="">
             <Trending day="26" date="Wed" img={img11} />
@@ -59,7 +59,7 @@ function Component4() {
               In hac habitasse platea dictumst. Phasellus vel velit vel augue
               maximus.
             </p>
-            <img src={frame} className="float-right h-12" />
+            <img src={frame} className="float-right h-12 mt-8 mr-12" />
           </div>
         </div>
         <img src={arrow} className="mx-auto mt-7" />
@@ -95,13 +95,13 @@ function Component4() {
                   couldn't be happier with our new place!
                 </p>
                 <div className="">
-                  <div className="w-96 h-px border border-neutral-300 mt-3"></div>
+                  <div className="w-96 h-auto border border-neutral-300 mt-3"></div>
                   <div className="flex justify-between">
-                    <img src={ellipse} className="mt-2" />
-                    <p className="text-zinc-800 text-xl mt-4 font-medium font-['Poppins']">
+                    <img src={ellipse} className="mt-6 mb-6" />
+                    <p className="text-zinc-800 text-xl  font-medium font-['Poppins'] mt-8">
                       Barbara D. Smith
                     </p>
-                    <img src={rating} className="" />
+                    <img src={rating} className="mb-2.5" />
                   </div>
                 </div>
               </div>
@@ -113,17 +113,17 @@ function Component4() {
 
         <div className="w-auto mt-32 h-72 bg-violet-900 px-12 rounded-3xl">
           <div className="flex justify-between items-center">
-            <img src={agent} className="mb-40 absolute h-[335px] " />
+            <img src={agent} className="mb-48 absolute h-[335px] " />
             <div className="py-44 ml-[410px] mb-10  mt-[-80px] ">
               <p className="text-white text-4xl font-semibold font-['Poppins'] leading-10">
                 Become a Agent.
               </p>
-              <p className="w-80 text-white text-base font-normal font-['Poppins'] leading-relaxed ">
+              <p className="w-80 text-white text-base font-normal font-['Poppins'] leading-relaxed mt-2">
                 Fusce venenatis tellus a felis scelerisque. venenatis tellus a
                 felis scelerisque.
               </p>
             </div>
-            <div className="w-40 h-12 px-7 py-5 mt-[-124px] bg-white rounded-3xl border border-violet-900 justify-start items-center gap-2.5 inline-flex mr-24">
+            <div className="w-54 h-12 px-7 py-5 mt-[-124px] bg-white rounded-3xl border border-violet-900 justify-start items-center gap-2.5 inline-flex mr-24">
               <div className="text-center text-violet-900 text-base font-medium font-['Poppins']">
                 Register Now
               </div>

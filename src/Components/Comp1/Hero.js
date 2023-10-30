@@ -22,7 +22,7 @@ import EllipseShade2 from "../../assets/EllipseShade2.svg";
 function Hero() {
   return (
     <div>
-      <div className="w-full bg-gradient-to-b from-sky-100 to-blue-200 rounded-bl-full rounded-br-full">
+      <div className="w-full bg-gradient-to-b from-sky-100 to-blue-200 rounded-bl-full rounded-br-full ">
         <div className="w-full text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest px-52 flex items-start pt-12">
           REAL ESTATE
         </div>
@@ -128,15 +128,15 @@ function Hero() {
         </div>
       </div>
 
-      <div className="  flex mt-36 px-60">
+      <div className="  flex mt-36 px-44">
         <div className="">
           <p className="w-52 text-left text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest">
             WHO ARE WE
           </p>
-          <p className="w-96 mt-2.5 text-left text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10">
+          <p className="w-96 mt-2.5 text-left text-zinc-800 text-3xl font-semibold font-['Poppins'] leading-10">
             Assisting individuals in locating the appropriate real estate.
           </p>
-          <p className="w-96 mt-2 text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed">
+          <p className="w-96 mt-2 text-zinc-500 text-base font-normal font-['Poppins'] text-left leading-relaxed">
             Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
             dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac
             malesuada leo volutpat.
@@ -179,7 +179,7 @@ function Hero() {
         <div className="flex">
           <img
             src={Rectangle14}
-            className=" w-72 h-96 rounded-3xl mt-20 ml-28"
+            className=" w-72 h-96 rounded-3xl mt-20 ml-24"
           />
         </div>
         <div className="flex flex-col ml-24">

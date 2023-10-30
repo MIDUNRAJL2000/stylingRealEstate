@@ -26,7 +26,7 @@ function Footer() {
               </div>
               <div className="flex">
                 <img src={message}></img>
-                <p className="ml-2 mb-4">support@rezilla.com</p>
+                <p className="ml-2 ">support@rezilla.com</p>
               </div>
             </div>
           </div>
@@ -63,11 +63,11 @@ function Footer() {
             className=" pl-3 rounded-lg w-80 h-14 bg-white shadow py-3 mb-8 "
           ></input>
           <img
-            className=" absolute right-[19px] w-[40px] z-50 bottom-[124px]"
+            className=" absolute right-[19px] w-[40px] z-50 bottom-[155px]"
             src={Rectangle40}
           ></img>
           <img src={arrow} className="absolute top-[110px] right-[-1px]" />
-          <img src={Group84} className="]"></img>
+          <img src={Group84} className="mb-8"></img>
         </div>
       </div>
 
