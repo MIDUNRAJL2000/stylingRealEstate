@@ -18,30 +18,30 @@ function Component3() {
       {" "}
       <img
         src={EllipseShade3}
-        className="absolute left-[690px] mt-6 w-12 h-12 "
+        className="absolute left-[690px] mt-12 w-12 h-12 "
       />
-      <div className="   py-32 bg-white">
+      <div className="   pt-44 bg-white mb-[0px]">
         <div className="ml-28">
           <p className="w-96  text-blue-600 text-xl text-left font-medium font-['Poppins'] tracking-widest">
             AREAS ACROSS THE TOWN
           </p>
-          <p className="w-96 text-left text-zinc-800 text-3xl font-semibold font-['Poppins'] leading-10">
+          <p className="w-100 text-left text-zinc-800 text-3xl font-semibold font-['Poppins'] leading-10">
             Neighborhood Properties
           </p>
         </div>
         <div className="flex justify-center items-center gap-10 mt-12">
-          <Towns num={"201"} location={"New York City, NY"} img={img}></Towns>
-          <Towns num={"201"} location={"New York City, NY"} img={img1}></Towns>
-          <Towns num={"201"} location={"New York City, NY"} img={img2}></Towns>
+          <Towns num={"216"} location={"New York City, NY"} img={img}></Towns>
+          <Towns num={"141"} location={"Houston, TX"} img={img1}></Towns>
+          <Towns num={"212"} location={"San Diego, CA"} img={img2}></Towns>
         </div>
-        <div className="flex justify-center items-center">
-          <Towns num={"201"} location={"New York City, NY"} img={img3}></Towns>
-          <Towns num={"201"} location={"New York City, NY"} img={img4}></Towns>
+        <div className="flex justify-center items-center gap-24">
+          <Towns num={"183"} location={"Philadelphia, PA"} img={img3}></Towns>
+          <Towns num={"112"} location={"San Francisco, CA"} img={img4}></Towns>
         </div>
       </div>
       <img
         src={EllipseShade4}
-        className="w-24 h-24 mb-24 absolute right-[150px]"
+        className="w-24 h-24 mt-[5px] absolute right-[150px]"
       />
       <p className="text-center text-blue-600 text-xl font-medium font-['Poppins'] uppercase tracking-widest mt-40">
         INTRODUCE YOURSELF TO
@@ -49,7 +49,7 @@ function Component3() {
       <p className=" text-center text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10 mt-3">
         Our Team of Experts
       </p>
-      <div className="flex px-32 gap-40 mt-14 ">
+      <div className="flex px-32 gap-32 mt-14 ">
         <div className="w-48 h-96">
           <img src={img5} />
           <p className="text-center text-neutral-950 text-2xl font-semibold font-['Poppins']">

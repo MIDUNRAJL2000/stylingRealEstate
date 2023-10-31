@@ -54,7 +54,7 @@ function Header() {
             Blogs
           </div>
         </div>
-        <div className="flex items-center gap-1">
+        <div className="flex items-center gap-2">
           <div className="w-12 h-12 justify-center flex items-center bg-violet-900 rounded-full">
             <img src={logo4} />
           </div>

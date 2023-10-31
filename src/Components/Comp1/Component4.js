@@ -14,6 +14,7 @@ import grp from "../../assets/Group 60.svg";
 import agent from "../../assets/unsplash_7uoMmzPd2JA.svg";
 import EllipseShade5 from "../../assets/EllipseShade5.svg";
 import EllipseShade6 from "../../assets/EllipseShade6.svg";
+import Ellipse7 from "../../assets/Ellipse7.svg";
 
 function Component4() {
   return (
@@ -41,10 +42,10 @@ function Component4() {
           </div>
           <div className="">
             <Trending day="07" date="Mon" img={img10} />
-            <p className="w-80 text-white text-left ml-4 text-3xl font-medium font-['Poppins']">
+            <p className="w-[350px] text-white text-left ml-4 text-3xl font-medium font-['Poppins']">
               How to Stage Your Home for a Quick Sale
             </p>
-            <p className="w-80 text-neutral-300 ml-4 text-base text-left font-normal font-['Poppins'] leading-relaxed">
+            <p className="w-80 text-neutral-300 ml-4 text-base text-left font-normal font-['Poppins'] leading-relaxed mb-12">
               Nullam odio lacus, dictum quis pretium congue, vehicula venenatis
               nunc.
             </p>
@@ -52,7 +53,7 @@ function Component4() {
           </div>
           <div className="">
             <Trending day="26" date="Wed" img={img11} />
-            <p className="w-80 text-white ml-4 text-3xl text-left  font-medium font-['Poppins']">
+            <p className="w-[350px] text-white ml-4 text-3xl text-left  font-medium font-['Poppins']">
               5 Tips for First-Time Home Sellers
             </p>
             <p className="w-80 text-neutral-300 text-base text-left ml-4 font-normal font-['Poppins'] leading-relaxed">
@@ -62,17 +63,22 @@ function Component4() {
             <img src={frame} className="float-right h-12 mt-8 mr-12" />
           </div>
         </div>
-        <img src={arrow} className="mx-auto mt-7" />
+        <img src={arrow} className="mx-auto mt-14" />
       </div>
 
       <div className="px-32">
         <div className="flex justify-between">
+          <img
+            src={Ellipse7}
+            className="absolute left-[810px] top-[6232px] z-0"
+          />
+
           <div className="mt-32  ">
             <p className="text-left w-52 text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest">
               TESTIMONIALS
             </p>
             <p className="w-96 mt-2 text-zinc-800 text-4xl text-left font-semibold font-['Poppins'] leading-10">
-              Look What Our Customers Say
+              Look What Our Customers Say!
             </p>
             <p className="w-96 text-left mt-2 text-zinc-800 text-base font-normal font-['Poppins'] leading-relaxed">
               Fusce venenatis tellus a felis scelerisque, non <br /> pulvinar
@@ -86,7 +92,7 @@ function Component4() {
           <img src={EllipseShade5} />
 
           <div className="flex">
-            <div className="w-auto h-auto bg-white rounded-3xl mt-32 shadow">
+            <div className="w-auto h-auto bg-white rounded-3xl mt-32 shadow z-0">
               <div className="px-8">
                 <img src={icon4} className="mt-6" />
                 <p className="w-96 text-left text-zinc-800 text-xl mt-2 font-medium font-['Poppins']">
@@ -109,16 +115,21 @@ function Component4() {
             <img src={grp} className=" ml-4 mt-32" />
           </div>
         </div>
-        <img src={EllipseShade6} />
 
         <div className="w-auto mt-32 h-72 bg-violet-900 px-12 rounded-3xl">
+          <img
+            src={EllipseShade5}
+            className="absolute right-[150px] top-[6675px]
+          "
+          />
           <div className="flex justify-between items-center">
-            <img src={agent} className="mb-48 absolute h-[335px] " />
+            <img src={agent} className="mb-[198px] absolute h-[360px] " />
             <div className="py-44 ml-[410px] mb-10  mt-[-80px] ">
               <p className="text-white text-4xl font-semibold font-['Poppins'] leading-10">
                 Become a Agent.
               </p>
-              <p className="w-80 text-white text-base font-normal font-['Poppins'] leading-relaxed mt-2">
+              <img src={EllipseShade6} className="absolute left-[480px]" />
+              <p className="w-[336px] text-white text-base font-normal font-['Poppins'] text-start leading-relaxed ml-4 mt-2">
                 Fusce venenatis tellus a felis scelerisque. venenatis tellus a
                 felis scelerisque.
               </p>

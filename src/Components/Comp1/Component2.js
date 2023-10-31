@@ -16,7 +16,7 @@ function Component2() {
         </p>
 
         <div className="flex justify-between ">
-          <p className="text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10">
+          <p className="text-zinc-800 text-4xl font-semibold font-['Poppins'] leading-10 mt-4">
             Latest Listed Properties
           </p>
           <div className=" ">
@@ -37,27 +37,27 @@ function Component2() {
             </div>
           </div>
         </div>
-        <p className="w-96 h-9 text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed text-left">
+        <p className="w-96 h-9 text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed text-left mt-4">
           Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
           dignissim purus.
         </p>
       </div>
       <div className="relative mb-[700px]">
-        <img src={frame} className="mt-12 absolute left-[160px]" />
+        <img src={frame} className="mt-12 absolute left-[160px] " />
       </div>
 
-      <div className=" bg-neutral-300 w-full h-auto mt-12 py-12">
+      <div className=" bg-neutral-300 w-full h-auto py-24">
         <div className="">
-          <p className="text-center text-zinc-800 text-xl font-medium font-['Poppins'] tracking-widest mt-12 ">
+          <p className="text-center text-zinc-800 text-xl font-medium font-['Poppins'] tracking-widest  ">
             OUR SERVICES
           </p>
-          <p className="text-center text-neutral-950  text-4xl font-semibold font-['Poppins'] leading-10 mt-4">
+          <p className="text-center text-neutral-950  text-4xl font-semibold font-['Poppins'] leading-10 mt-8">
             Donec porttitor euismod dignissim
           </p>
         </div>
-        <div className="mt-7 mx-16">
-          <div className="flex  gap-9 justify-between ">
-            <div className="w-96 h-auto bg-white rounded-3xl shadow align-center py-8 mb-6">
+        <div className="mt-14 gap-10">
+          <div className="flex mx-24 justify-between ">
+            <div className="w-96 h-auto bg-white rounded-3xl shadow align-center pb-[40px]">
               <div className="w-20 h-20 bg-blue-600 rounded-full shadow mx-auto mt-12">
                 <div className="flex justify-center pt-5">
                   <img src={logo12}></img>
@@ -66,7 +66,7 @@ function Component2() {
               <p className=" text-xl font-medium font-['Poppins'] mt-4">
                 Buy a New Home
               </p>
-              <p className="w-56 mx-auto text-base text-zinc-500 font-normal font-['Poppins'] leading-relaxed">
+              <p className="w-[220px] mx-auto text-base text-zinc-500 font-normal font-['Poppins'] leading-relaxed">
                 Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
                 dignissim purus.
               </p>
@@ -80,7 +80,7 @@ function Component2() {
               <p className="text-zinc-800 text-xl font-medium font-['Poppins'] mt-4">
                 Sell a House
               </p>
-              <p className="w-56 mx-auto text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed">
+              <p className="w-[220px] mx-auto text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed">
                 Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
                 dignissim purus.
               </p>
@@ -94,7 +94,7 @@ function Component2() {
               <p className="text-zinc-800 text-xl font-medium font-['Poppins'] mt-4">
                 Rent a House
               </p>
-              <p className="w-56 text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed mx-auto">
+              <p className="w-[220px] text-zinc-500 text-base font-normal font-['Poppins'] leading-relaxed mx-auto">
                 Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
                 dignissim purus.
               </p>

@@ -66,7 +66,10 @@ function Footer() {
             className=" absolute right-[19px] w-[40px] z-50 bottom-[155px]"
             src={Rectangle40}
           ></img>
-          <img src={arrow} className="absolute top-[110px] right-[-1px]" />
+          <img
+            src={arrow}
+            className="absolute top-[115px] right-[30px] z-100"
+          />
           <img src={Group84} className="mb-8"></img>
         </div>
       </div>

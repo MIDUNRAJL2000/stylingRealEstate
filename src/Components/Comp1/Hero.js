@@ -18,12 +18,13 @@ import Group21 from "../../assets/Group 21.svg";
 import Group45 from "../../assets/Group 45.svg";
 import EllipseShade from "../../assets/EllipseShade.svg";
 import EllipseShade2 from "../../assets/EllipseShade2.svg";
+import group4 from "../../assets/Group(4).svg";
 
 function Hero() {
   return (
     <div>
       <div className="w-full bg-gradient-to-b from-sky-100 to-blue-200 rounded-bl-full rounded-br-full ">
-        <div className="w-full text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest px-52 flex items-start pt-12">
+        <div className="w-full text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest px-52 flex items-start pt-12 mt-8">
           REAL ESTATE
         </div>
         <div className="flex justify justify-between w-full px-52 pt-4">
@@ -49,7 +50,7 @@ function Hero() {
             </div>
           </div>
 
-          <div className="w-96 bg-white rounded-3xl shadow h-auto mb-32">
+          <div className="w-96 bg-white rounded-3xl shadow h-auto mb-32 mt-4">
             <div className="bg-white rounded-tl-2xl rounded-tr-2xl border-b border-neutral-400">
               <div className="flex justify-between items-center px-8">
                 <span className="text-violet-900 text-base font-medium font-['Poppins'] border-b-2 border-blue-600 py-5 px-10">
@@ -113,13 +114,13 @@ function Hero() {
         </div>
         <img
           src={EllipseShade2}
-          className="w-24 h-24 absolute left-[150px] bottom-[-220px]"
+          className="w-24 h-24 absolute left-[150px] bottom-[-280px]"
         />
-        <p className="text-center text-zinc-500 text-base font-medium font-['Poppins'] mt-8">
+        <p className="text-center text-zinc-500 text-base font-medium font-['Poppins'] mt-12">
           Trusted by 100+ Companies across the globe!
         </p>
         <div className="flex justify-evenly mt-24">
-          <img src={image1} />
+          <img src={image1} className="w-28 h-10 mix-blend-luminosity" />
           <img src={image2} />
           <img src={image3} />
           <img src={image4} />
@@ -128,20 +129,25 @@ function Hero() {
         </div>
       </div>
 
-      <div className="  flex mt-36 px-44">
+      <div className="  flex mt-40 px-44">
         <div className="">
           <p className="w-52 text-left text-blue-600 text-xl font-medium font-['Poppins'] tracking-widest">
             WHO ARE WE
           </p>
+          <img
+            src={group4}
+            className="absolute left-[830px] bottom-[-700px] w-[206px] h-[205.95px]"
+          />
           <p className="w-96 mt-2.5 text-left text-zinc-800 text-3xl font-semibold font-['Poppins'] leading-10">
             Assisting individuals in locating the appropriate real estate.
           </p>
+
           <p className="w-96 mt-2 text-zinc-500 text-base font-normal font-['Poppins'] text-left leading-relaxed">
             Donec porttitor euismod dignissim. Nullam a lacinia ipsum, nec
             dignissim purus. Nulla convallis ipsum molestie nibh malesuada, ac
             malesuada leo volutpat.
           </p>
-          <div className="w-96 mt-2.5 h-auto bg-white rounded-3xl shadow">
+          <div className="w-96 mt-8 h-auto bg-white rounded-3xl shadow">
             <div className="flex">
               <div className="flex items-center">
                 <img
@@ -179,7 +185,7 @@ function Hero() {
         <div className="flex">
           <img
             src={Rectangle14}
-            className=" w-72 h-96 rounded-3xl mt-20 ml-24"
+            className=" w-72 h-[430px] rounded-3xl mt-20 ml-24"
           />
         </div>
         <div className="flex flex-col ml-24">

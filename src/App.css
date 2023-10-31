@@ -4,6 +4,9 @@
 .App {
   text-align: center;
 }
+* {
+  /* Increase font size by 5% (100% + 5%) */
+}
 
 .App-logo {
   height: 40vmin;
