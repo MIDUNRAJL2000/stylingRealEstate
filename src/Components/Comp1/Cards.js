@@ -7,7 +7,7 @@ import logo12 from "../../assets/logo12.svg";
 import logo13 from "../../assets/logo13.svg";
 import logo14 from "../../assets/logo14.svg";
 
-function Component2() {
+function Cards() {
   return (
     <div>
       <div className="py-20 px-40 ">
@@ -106,4 +106,4 @@ function Component2() {
   );
 }
 
-export default Component2;
+export default Cards;

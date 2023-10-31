@@ -12,7 +12,7 @@ import img8 from "../../assets/Rectangle 32.svg";
 import EllipseShade3 from "../../assets/EllipseShade3.svg";
 import EllipseShade4 from "../../assets/EllipseShade4.svg";
 
-function Component3() {
+function Properties() {
   return (
     <div>
       {" "}
@@ -91,4 +91,4 @@ function Component3() {
   );
 }
 
-export default Component3;
+export default Properties;

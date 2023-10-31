@@ -16,7 +16,7 @@ import EllipseShade5 from "../../assets/EllipseShade5.svg";
 import EllipseShade6 from "../../assets/EllipseShade6.svg";
 import Ellipse7 from "../../assets/Ellipse7.svg";
 
-function Component4() {
+function TrendingPosts() {
   return (
     <div className="mt-20">
       <div className="w-full h-auto bg-violet-900 mt -14 py-16">
@@ -146,4 +146,4 @@ function Component4() {
   );
 }
 
-export default Component4;
+export default TrendingPosts;
